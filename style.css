@@ -41,10 +41,12 @@ div#dados>p{
     font-size: 18px;
 }
 div#dados>p#peso{
+    text-align: center;
     margin: auto;
     margin-bottom: 0px;
 }
 div#dados>p#altura{
+    text-align: center;
     margin: auto;
     margin-bottom: -100px;
     margin-top: -30px;
@@ -66,5 +68,8 @@ input#btn{
 }
 div#resultado{
     margin-top: 20px;
+    text-align: center;
+}
+div#status{
     text-align: center;
 }

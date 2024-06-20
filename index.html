@@ -21,14 +21,36 @@
         </div>
         <div id="resultado">
         </div>
+        <div id="status"></div>
     </section>
     <script>
     function imc(){
     var h=document.getElementById('alt')
     var p=document.getElementById('pe')
     var tx=document.querySelector('div#resultado')
+    var st=document.querySelector('div#status')
     var imc=(p.value/(h.value*h.value)).toFixed(2)
     tx.innerHTML=`O seu IMC é: ${imc}`
+    if(imc<18.5){
+        st.innerHTML=`Magreza`
+        st.style.color = 'red'
+    }
+    if(imc>=18.5 && imc<25){
+        st.innerHTML=`Normal`
+        st.style.color = 'green'
+    }
+    if(imc>=25 && imc<30){
+        st.innerHTML=`Sobrepeso`
+        st.style.color = 'red'
+    }
+    if(imc>30 && imc<40){
+        st.innerHTML=`Obesidade`
+        st.style.color = 'red'
+    }
+    if(imc>40){
+        st.innerHTML=`Obesidade grave`
+        st.style.color = 'red'
+    }
 }
     </script>
 </body>
