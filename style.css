@@ -9,19 +9,19 @@ body{
 }
 header{
     text-align: center;
-    margin-top: 160px;
-    font-size: 25px;
+    margin-top: 50px;
+    width: 100vw;
+    font-size: 5vw;
     color: whitesmoke;
 }
 section{
-    margin-top: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
     width: 80vw;
-    height: 30vh;
+    height: 40vh;
     border-radius: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.432);
     background-color: white;
@@ -32,14 +32,22 @@ input{
 }
 div#dados{
     text-align: center;
+    margin: auto;
 }
 div#dados>p{
-    margin-left: -40px;
+    margin-top: -50px;
+    margin-left: -15px;
     padding: 70px;
     font-size: 18px;
 }
 div#dados>p#peso{
-    margin-top: -90px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+div#dados>p#altura{
+    margin: auto;
+    margin-bottom: -100px;
+    margin-top: -30px;
 }
 div#enviar{
     text-align: center;
