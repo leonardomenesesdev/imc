@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule seu IMC</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p id="altura">Altura: <input type="number" name="h" id="alt"></p> 
+            <p id="peso">Peso: <input type="number" name="p" id="pe"></p>
+        </div>
+        <div id="enviar">
+            <input type="submit" value="Avaliar" id="btn" onclick="imc()">
+        </div>
+        <div id="resultado">
+        </div>
+    </section>
+    <script>
+    function imc(){
+    var h=document.getElementById('alt')
+    var p=document.getElementById('pe')
+    var tx=document.querySelector('div#resultado')
+    var imc=(p.value/(h.value*h.value)).toFixed(2)
+    tx.innerHTML=`O seu IMC é: ${imc}`
+}
+    </script>
+</body>
+</html>
