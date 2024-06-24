@@ -32,8 +32,8 @@ section{
 }
 input{
     border-radius: 10px;
-    margin: auto;
     text-align: center;
+    width: 100px;
 }
 div#dados{
     text-align: center;
