@@ -32,6 +32,8 @@ section{
 }
 input{
     border-radius: 10px;
+    font-size: 0.5em;
+    text-align: center;
     padding: 4px;
 }
 div#dados{
