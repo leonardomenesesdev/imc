@@ -33,7 +33,11 @@ section{
 input{
     border-radius: 10px;
     text-align: center;
-    display: block;
+    height: 10px;
+    width: calc(100%-90%);
+    font-size: 1em;
+    transform: translateY(-2px);
+    padding: 4px;
 }
 div#dados{
     text-align: center;
