@@ -33,7 +33,7 @@ section{
 input{
     border-radius: 10px;
     text-align: center;
-    width: 100px;
+    display: block;
 }
 div#dados{
     text-align: center;
