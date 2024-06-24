@@ -33,7 +33,7 @@ section{
 input{
     border-radius: 10px;
     text-align: center;
-    height: 10px;
+    height: 5px;
     width: calc(100%-98%);
     font-size: 1em;
     transform: translateY(-2px);
