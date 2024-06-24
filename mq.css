@@ -9,6 +9,9 @@
     }
 }
 @media screen and (min-width: 992px) {
+    header{
+        margin-top: 40px;
+        }
     section{
         margin-top: 60px;
         width: 30vw;
