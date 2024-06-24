@@ -34,7 +34,7 @@ input{
     border-radius: 10px;
     text-align: center;
     height: 5px;
-    width: calc(100%-98%);
+    width: calc(100%-90%);
     font-size: 1em;
     transform: translateY(-2px);
     padding: 4px;
